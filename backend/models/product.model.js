@@ -18,7 +18,7 @@ const productSchema = mongoose.Schema({
         required: true
     },
     availableStatus: {
-        type: Boolean,
+        type: String,
         required: true,
     },
     sellerName: {
