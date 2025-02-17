@@ -1,7 +1,6 @@
-import { Container, SimpleGrid, Text, VStack, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton } from "@chakra-ui/react";
+import { Container, SimpleGrid, Text, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { Box, Button, Flex, Heading, Image, Divider, Badge } from "@chakra-ui/react";
+import { Box, Button, Flex, Heading, Image, Badge } from "@chakra-ui/react";
 
 const HomePage = () => {
     const [products, setProducts] = useState([]);
