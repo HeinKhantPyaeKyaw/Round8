@@ -10,7 +10,7 @@ const HomePage = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const res = await fetch("/api/products/");
+                const res = await fetch("https://your-vercel-backend.vercel.app/api/products");
                 if (!res.ok) {
                     throw new Error("Network response was not ok");
                 }
